@@ -27,7 +27,6 @@ h5 a {
 
 }
 
-
 h1 { 
  
     z-index: 8; 
@@ -343,6 +342,61 @@ h4 a {
     font-size: 13px; 
     text-decoration: none;
 }
+
+@media screen and (max-width: 980px) { 
+    body {
+        width: 980px; 
+}
+
+} 
+
+
+@media screen and (max-width: 768px) { 
+    body { 
+        width: 768px; 
+    }
+	
+} 
+/* needed to have these set up differently to adjust & tried to rewrite program--did not have time */
+@media screen and (max-width: 640px) { 
+
+    body { 
+        width: 640px; 
+    }
+    header { 
+        position: static; 
+    }
+
+    h1 { 
+        width: 20%; 
+        float: left; 
+    }
+    .bio { 
+        float: left; 
+        width: 200px; 
+        height: 100%; 
+
+        position: relative; 
+        left: 0px; 
+    }
+
+    .boxes { 
+    
+        position: relative; 
+        margin-left: 0px; 
+    }
+
+    #portfolio-images { 
+        margin-left: 0px; 
+    }
+    .copyright { 
+        float: left; 
+    }
+
+    
+	
+} 
+
 
 /* 
 #portfolio-line { 

@@ -347,7 +347,16 @@ h4 a {
 @media screen and (max-width: 980px) { 
     body {
         width: 980px; 
+        margin: auto; 
 }
+    h1 { 
+        float: left; 
+        width: 30px; 
+    }
+
+    header { 
+        width: 30px; 
+    }
 
 } 
 
@@ -355,6 +364,15 @@ h4 a {
 @media screen and (max-width: 768px) { 
     body { 
         width: 768px; 
+        margin: auto; 
+    }
+    h1 { 
+        float: left; 
+        width: 30px; 
+    }
+
+    header { 
+        width: 30px; 
     }
 	
 } 
@@ -363,6 +381,7 @@ h4 a {
 
     body { 
         width: 640px; 
+        margin: auto; 
     }
     header { 
         position: static; 
